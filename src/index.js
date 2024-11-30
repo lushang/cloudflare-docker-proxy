@@ -10,7 +10,7 @@ const routes = {
   [CUSTOM_DOMAIN + "/docker"]: dockerHub,
   [CUSTOM_DOMAIN + "/quay"]: "https://quay.io",
   [CUSTOM_DOMAIN + "/gcr"]: "https://gcr.io",
-  [CUSTOM_DOMAIN] + "/k8s-gcr": "https://k8s.gcr.io",
+  [CUSTOM_DOMAIN + "/k8s-gcr"]: "https://k8s.gcr.io",
   [CUSTOM_DOMAIN + "/k8s"]: "https://registry.k8s.io",
   [CUSTOM_DOMAIN + "/ghcr"]: "https://ghcr.io",
   [CUSTOM_DOMAIN + "/cloudsmith"]: "https://docker.cloudsmith.io",
